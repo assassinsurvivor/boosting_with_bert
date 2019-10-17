@@ -10,7 +10,9 @@ Here is a detailed description:
 
 ​        The script expects three user arguments:
             -complete path to the .txt file containing the data
+            
             -maximum number of words that the dictionary should have.
+            
             -minimum number of frequency that a bigram should have.
 
          python tokenizer.py "sample.txt" 100 7
