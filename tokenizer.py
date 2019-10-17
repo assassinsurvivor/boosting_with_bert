@@ -139,7 +139,7 @@ vocab_dict=basic_process(text)
 
 for _ in range(num_iterations):
     try:
-        vocab_dict=frequent_bichar(vocab_dict,min_freq=700)
+        vocab_dict=frequent_bichar(vocab_dict,min_freq=sys.argv[3])
     except:
         break
 
