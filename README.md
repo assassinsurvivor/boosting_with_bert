@@ -13,4 +13,4 @@ Here is a detailed description:
             -maximum number of words that the dictionary should have.
             -minimum number of frequency that a bigram should have.
 
-         **python tokenizer.py "sample.txt" 100 7**
+         python tokenizer.py "sample.txt" 100 7
