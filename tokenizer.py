@@ -85,7 +85,7 @@ def decode(vocab_dict,text):
         1.the vocab dictionary obtained after running the function 'frequent_bichar'
         2.the word or a string of words sep by spaces example: transformer
     Output:
-        ['trans','form','er'] assuming 'trans','form' & 'er' were present in the dictionary and the word transformer was not present.
+        ['trans','##form','##er'] assuming 'trans','##form' & '##er' were present in the dictionary and the word transformer was not present.
 
     '''
 
